@@ -1,0 +1,31 @@
+{
+  "nome_tabela": "Reviravoltas de Enredo",
+  "descricao": "Complicações inesperadas que alteram o rumo da cena",
+  "opcoes": [
+    {
+      "item": "Nenhuma Reviravolta (A cena segue o fluxo esperado)",
+      "peso": 50,
+      "descricao": "O capítulo se desenvolve naturalmente."
+    },
+    {
+      "item": "Traição de um Aliado Secundário",
+      "peso": 10,
+      "descricao": "Alguém que parecia confiável revela motivações ocultas."
+    },
+    {
+      "item": "Elemento Surpresa do Passado",
+      "peso": 15,
+      "descricao": "Um evento ou personagem esquecido reaparece com impacto."
+    },
+    {
+      "item": "Mudança Drástica no Ambiente",
+      "peso": 15,
+      "descricao": "Desastre natural, mudança de clima ou desabamento altera o cenário."
+    },
+    {
+      "item": "Informação Falsa / Pista Forjada",
+      "peso": 10,
+      "descricao": "Uma verdade aceita revela-se uma mentira."
+    }
+  ]
+}

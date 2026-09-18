@@ -1,0 +1,26 @@
+{
+  "nome_tabela": "Reações de NPCs",
+  "descricao": "Atitude de um NPC diante do protagonista",
+  "opcoes": [
+    {
+      "item": "Cooperativo e Aberto",
+      "peso": 35,
+      "descricao": "Ajuda de boa vontade e compartilha informações."
+    },
+    {
+      "item": "Desconfiado ou Cauteloso",
+      "peso": 35,
+      "descricao": "Exige garantias, provas ou pagamento antes de agir."
+    },
+    {
+      "item": "Hostil ou Agressivo",
+      "peso": 15,
+      "descricao": "Recusa qualquer interação e ameaça o protagonista."
+    },
+    {
+      "item": "Evasivo / Escondendo Algo",
+      "peso": 15,
+      "descricao": "Mente descaradamente ou tenta mudar de assunto."
+    }
+  ]
+}

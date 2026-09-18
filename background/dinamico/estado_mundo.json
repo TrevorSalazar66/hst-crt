@@ -1,0 +1,12 @@
+{
+  "localizacao_atual": "Vila Inicial",
+  "condicao_climatica": "Tempestuoso",
+  "hora_do_dia": "Noite",
+  "faccoes_status": {
+    "Guarda Real": "Neutro",
+    "Sindicato dos Ladrões": "Hostil"
+  },
+  "eventos_globais_ativos": [
+    "Rumores de monstros na floresta ao sul"
+  ]
+}

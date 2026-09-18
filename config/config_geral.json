@@ -1,0 +1,19 @@
+{
+  "nome_historia": "Minha Saga Narrative Engine",
+  "modo_ativo": "coautor",
+  "capitulo_atual": 1,
+  "idioma": "pt-BR",
+  "oraculos_ativos": [
+    "sementes_cena.json",
+    "reviravoltas.json",
+    "reacoes_npc.json"
+  ],
+  "caminhos": {
+    "background_fixo": "background/fixo",
+    "background_dinamico": "background/dinamico",
+    "diretrizes": "diretrizes",
+    "oraculos": "oraculos",
+    "saga": "saga",
+    "scripts": "scripts"
+  }
+}
