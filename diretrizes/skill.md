@@ -2,6 +2,14 @@
 
 > Este arquivo é a Habilidade Mestre do Agente LLM para execução do gerador de histórias.
 
+## 🚀 Passo 0: Inicialização de Nova Saga (Bloco 1)
+Antes de iniciar o Capítulo 1 de uma história nova, determine o método de criação do universo com o usuário:
+1. **Modo Manual**: O usuário preenche os arquivos em `background/fixo/` (`worldbuilding.md`, `regras_universo.md`, `protagonista.md`).
+2. **Modo Semi-Aleatório (Oráculo)**: Execute `python3 scripts/setup/inicializador_saga.py oraculo`. Use o resultado sorteado para a LLM redigir automaticamente a lore e a ficha do personagem em `background/fixo/`.
+3. **Modo Cenário Pré-Pronto (Preset)**: Execute `python3 scripts/setup/inicializador_saga.py preset:<nome_preset>` (ex: `fantasia_sombria` ou `cyberpunk_noir`).
+
+---
+
 ## 📋 Protocolo de Execução por Capítulo
 
 Ao gerar ou interagir com a história neste repositório, siga estritamente o ciclo de vida abaixo:

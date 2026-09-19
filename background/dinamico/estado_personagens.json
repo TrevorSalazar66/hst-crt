@@ -2,16 +2,7 @@
   "protagonista": {
     "saude": 100,
     "condicao_fisica": "Saudável",
-    "estado_emocional": "Determinado",
-    "inventario": [
-      "Espada Curta",
-      "Mapa Antigo",
-      "Poção de Cura"
-    ],
-    "habilidades_desbloqueadas": []
+    "inventario": []
   },
-  "relacionamentos": {
-    "Mentor Jonas": 80,
-    "Capitão Silas": 30
-  }
+  "relacionamentos": {}
 }

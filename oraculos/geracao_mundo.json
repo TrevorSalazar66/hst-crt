@@ -1,0 +1,27 @@
+{
+  "generos": [
+    {"item": "Fantasia Sombria / Dark Fantasy", "peso": 25, "descricao": "Mundo decadente com magia perigosa e ruínas antigas."},
+    {"item": "Cyberpunk / Dystopian", "peso": 25, "descricao": "Cidades verticais, megacorporações, implantes e submundo de néon."},
+    {"item": "Sci-Fi Espacial / Space Opera", "peso": 20, "descricao": "Fronteiras galácticas, alienígenas, naves e imperios em guerra."},
+    {"item": "Terror Cósmico / Lovecraftiano", "peso": 15, "descricao": "Seitas secretas, conhecimento proibido e entidades incompreensíveis."},
+    {"item": "Pós-Apocalíptico / Sobrevivência", "peso": 15, "descricao": "Terra devastada por desastre, escassez de recursos e facções rivais."}
+  ],
+  "tomes_narrativos": [
+    {"item": "Opressivo e Tenso", "peso": 30},
+    {"item": "Misterioso e Investigativo", "peso": 30},
+    {"item": "Épico e Heroico", "peso": 20},
+    {"item": "Melancólico e Reflexivo", "peso": 20}
+  ],
+  "conflitos_centrais": [
+    {"item": "Ascensão de uma Tirania ou Seita", "peso": 25},
+    {"item": "Colapso Inevitável de uma Cidade/Planeta", "peso": 25},
+    {"item": "Guerra de Recurso ou Artefato Lendário", "peso": 25},
+    {"item": "Praga / Vírus / Invasão Desconhecida", "peso": 25}
+  ],
+  "origens_protagonista": [
+    {"item": "Ex-Mercenário / Desertor buscando redenção", "peso": 25},
+    {"item": "Investigador / Acadêmico perseguido pela verdade", "peso": 25},
+    {"item": "Sobrevivente urbano sem memórias do passado", "peso": 25},
+    {"item": "Herdeiro de uma facção decaída", "peso": 25}
+  ]
+}

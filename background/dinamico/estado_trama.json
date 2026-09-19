@@ -1,10 +1,8 @@
 {
-  "arco_narrativo_atual": "A Descoberta da Relíquia",
+  "arco_narrativo_atual": "Início da Saga",
   "capitulo_atual_num": 1,
   "ganchos_abertos": [
-    "Descobrir quem enviou a carta anônima",
-    "Encontrar o artefato roubado"
+    "Descobrir o primeiro objetivo"
   ],
-  "misterios_resolvidos": [],
   "historico_capitulos": []
 }
