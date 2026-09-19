@@ -1,0 +1,304 @@
+{
+  "nome_tabela": "Sementes de Cena Modulares",
+  "descricao": "Estrutura modular para geração de foco dramático, objetivos imediatos e fatores de urgência para capítulos e cenas",
+  "tipos_cena": [
+    {
+      "item": "Investigação e Descoberta de Mistério",
+      "peso": 20,
+      "descricao": "Busca por respostas, rastreamento de pistas, decifração de documentos ou interrogatório de testemunhas."
+    },
+    {
+      "item": "Infiltração e Operação Furtiva",
+      "peso": 18,
+      "descricao": "Invasão silenciosa a território hostil, roubo de dados/itens ou evasão de patrulhas e vigilância."
+    },
+    {
+      "item": "Confronto Direto e Embate Físico",
+      "peso": 18,
+      "descricao": "Trocação violenta de tiros/lâminas, combate desesperado por sobrevivência ou defesa de uma posição."
+    },
+    {
+      "item": "Negociação Tensa e Diplomacia Suja",
+      "peso": 15,
+      "descricao": "Encontro em terreno neutro ou hostil para troca de favores, chantagem, alianças frágeis ou suborno."
+    },
+    {
+      "item": "Sobrevivência, Fuga e Perseguição",
+      "peso": 12,
+      "descricao": "Corrida contra a morte para escapar de um cerco, desabamento, anomalia climática ou bando caçador."
+    },
+    {
+      "item": "Operação Técnica, Cura e Ritual Clandestino",
+      "peso": 10,
+      "descricao": "Reparo de equipamento vital, cirurgia improvisada de ferimento grave ou ativação de mecanismo ancestral."
+    },
+    {
+      "item": "Respiro Dramático, Confissão e Vínculos",
+      "peso": 7,
+      "descricao": "Momento de pausa forçada para tratar traumas, discutir rumos da jornada e aprofundar laços ou conflitos internos."
+    }
+  ],
+  "cenas_investigacao": [
+    {
+      "item": "Vistoriar a Cena de um Crime ou Massacre Recente",
+      "peso": 15,
+      "descricao": "Examinar corpos, marcas de armas, resíduos de névoa ou pistas deixadas às pressas pelos executores."
+    },
+    {
+      "item": "Interrogatório Tenso em um Esconderijo Clandestino",
+      "peso": 15,
+      "descricao": "Extrair a verdade de um prisioneiro relutante ou informante apavorado antes que ele silencie."
+    },
+    {
+      "item": "Decifração de Diário, Registro de Bordo ou Mapa Roubado",
+      "peso": 12,
+      "descricao": "Analisar documentos codificados que revelam uma conspiração maior ou a rota de uma remessa vital."
+    },
+    {
+      "item": "Infiltração em Arquivos Mortos ou Biblioteca Selada",
+      "peso": 10,
+      "descricao": "Vasculhar registros históricos esquecidos para descobrir a fraqueza de uma facção ou do Ápice."
+    },
+    {
+      "item": "Rastrear um Rastro de Sangue, Óleo ou Resíduo Cósmico",
+      "peso": 10,
+      "descricao": "Seguir marcas discretas deixadas pelo alvo através de túneis e labirintos urbanos."
+    }
+  ],
+  "cenas_infiltracao": [
+    {
+      "item": "Invasão Noturna a um Depósito ou Forja Blindada",
+      "peso": 15,
+      "descricao": "Burlar trancas a vapor, evitar sentinelas mecânicas e obter um recurso guardado a sete chaves."
+    },
+    {
+      "item": "Travessia de Terra de Ninguém sob Vigia de Holofotes e Torres",
+      "peso": 14,
+      "descricao": "Mover-se de cobertura em cobertura em terreno minado ou patrulhado sem disparar o alarme geral."
+    },
+    {
+      "item": "Substituição / Disfarce em Território Inimigo",
+      "peso": 12,
+      "descricao": "Usar trajes, distintivos ou máscaras de outra facção para andar entre guardas e acessar áreas restritas."
+    },
+    {
+      "item": "Extração Silenciosa de um Prisioneiro de sua Cela",
+      "peso": 12,
+      "descricao": "Libertar uma figura chave de uma masmorra ou comboio em movimento sem alertar o comando principal."
+    },
+    {
+      "item": "Plantio de Armadilha ou Sabotagem de Caldeira Central",
+      "peso": 10,
+      "descricao": "Instalar explosivos ou desalinhar válvulas em uma instalação inimiga para criar uma distração catastrófica."
+    }
+  ],
+  "cenas_confronto": [
+    {
+      "item": "Emboscada em Beco Estreito ou Galeria Subterrânea",
+      "peso": 15,
+      "descricao": "Combate claustrofóbico e visceral onde o terreno oferece pouca cobertura e o recuo é arriscado."
+    },
+    {
+      "item": "Defesa Desesperada de uma Posição Barricada",
+      "peso": 15,
+      "descricao": "Segurar ondas sucessivas de agressores enquanto uma porta é arrombada ou um veículo é ligado."
+    },
+    {
+      "item": "Duelo Pessoal e Mortal contra um Rival ou Executor",
+      "peso": 12,
+      "descricao": "Embate direto com um antagonista que possui histórico de vingança ou dívida de sangue pendente."
+    },
+    {
+      "item": "Ruptura de Bloqueio Armado ou Posto de Controle",
+      "peso": 12,
+      "descricao": "Abrir caminho à força através de uma barricada fortemente defendida por guardas ou mercenários."
+    },
+    {
+      "item": "Confronto Triangular Caótico entre Múltiplos Grupos",
+      "peso": 10,
+      "descricao": "Batalha onde três lados com interesses conflitantes se digladiam simultaneamente."
+    }
+  ],
+  "cenas_negociacao": [
+    {
+      "item": "Reunião Clandestina no Subsolo de uma Taberna em Ruínas",
+      "peso": 15,
+      "descricao": "Troca de informações sigilosas com copos cheios e armas apontadas por baixo das mesas."
+    },
+    {
+      "item": "Troca Tensa de Prisioneiros ou Carga Valiosa",
+      "peso": 14,
+      "descricao": "Encontro em campo aberto com atiradores de ambos os lados posicionados, onde um erro deflagra o massacre."
+    },
+    {
+      "item": "Audiência com um Líder Autocrata ou Barão da Indústria",
+      "peso": 12,
+      "descricao": "Tentar convencer uma autoridade corrupta a conceder um salvo-conduto ou cancelar uma ordem de execução."
+    },
+    {
+      "item": "Suborno de um Funcionário-Chave ou Guarda de Portão",
+      "peso": 12,
+      "descricao": "Comprar a vista grossa de alguém com acesso crucial, balanceando a ganância e o medo do NPC."
+    },
+    {
+      "item": "Mediação Forçada de Conflito entre Facções Aliadas",
+      "peso": 10,
+      "descricao": "Evitar que dois aliados temperamentais rachem a aliança no momento mais crítico da missão."
+    }
+  ],
+  "cenas_sobrevivencia": [
+    {
+      "item": "Fuga Frenética em Veículo Improvisado ou Vagonete a Vapor",
+      "peso": 15,
+      "descricao": "Perseguição em alta velocidade através de trilhos suspensos, canais lamacentos ou estradas arruinadas."
+    },
+    {
+      "item": "Corrida Contra o Toque de Recolher da Névoa Rubra",
+      "peso": 15,
+      "descricao": "Buscar abrigo antes que o gás mortal ou os ecos da névoa preencham completamente as ruas."
+    },
+    {
+      "item": "Escapada de uma Instalação que Está Colapsando / Implodindo",
+      "peso": 14,
+      "descricao": "Superar obstáculos físicos, portas que se fecham e labaredas antes do desmoronamento final."
+    },
+    {
+      "item": "Caçada Implacável: Sendo Rastreado por Cães de Caça ou Autômatos",
+      "peso": 12,
+      "descricao": "Ocultar pegadas, despistar farejadores e criar distrações enquanto a estamina do grupo se esgota."
+    },
+    {
+      "item": "Sobrevivência em Enclave em Quarentena ou Contaminado",
+      "peso": 10,
+      "descricao": "Mover-se por uma zona de peste ou radiação do Vazio onde qualquer contato com os infectados é letal."
+    }
+  ],
+  "cenas_operacao_tecnica": [
+    {
+      "item": "Cirurgia de Emergência / Extração de Bala ou Estilhaço Envenenado",
+      "peso": 15,
+      "descricao": "Salvar um personagem gravemente ferido com ferramentas rudimentares em ambiente precário."
+    },
+    {
+      "item": "Reparo Crítico de Caldeira, Respirador ou Mecanismo a Vapor",
+      "peso": 15,
+      "descricao": "Ajustar válvulas sob pressão e soldar tubos em tempo recorde para evitar uma explosão iminente."
+    },
+    {
+      "item": "Desativação de um Artefato Armado ou Armadilha Complexa",
+      "peso": 12,
+      "descricao": "Manipular fios, runas ou engrenagens com mãos firmes enquanto o gatilho se aproxima do disparo."
+    },
+    {
+      "item": "Ritual de Contenção de Corrupção Cósmica / Purificação",
+      "peso": 12,
+      "descricao": "Executar ritos heréticos ou químicos para impedir que um companheiro se transforme em aberração."
+    },
+    {
+      "item": "Sintonia de Frequência de Transmissão em Torre de Comunicações",
+      "peso": 10,
+      "descricao": "Alinhar antenas em um ponto alto e exposto para enviar uma mensagem antes de ser detectado."
+    }
+  ],
+  "cenas_respiro_dramatico": [
+    {
+      "item": "Vigília ao Redor da Forja: Revelações Íntimas e Traumas",
+      "peso": 15,
+      "descricao": "Dois personagens compartilham suas origens, culpas e cicatrizes enquanto limpam suas armas."
+    },
+    {
+      "item": "Rito de Despedida ou Sepultamento Silencioso de um Companheiro",
+      "peso": 15,
+      "descricao": "Homenagear um aliado caído em silêncio ritual, reafirmando os votos e o propósito da luta."
+    },
+    {
+      "item": "Confronto Verbal sobre Limites Morais da Missão",
+      "peso": 12,
+      "descricao": "Discussão acalorada sobre até que ponto o grupo deve ir e o que estão dispostos a sacrificar."
+    },
+    {
+      "item": "Visita Secreta a um Familiar ou Antigo Amor em Apuros",
+      "peso": 12,
+      "descricao": "Garantir a segurança de alguém querido e deixar suprimentos, arriscando expor seu refúgio."
+    },
+    {
+      "item": "Descanso Efêmero em Refúgio Subterrâneo Esquecido",
+      "peso": 10,
+      "descricao": "Momento raro de calor e alimento quente, onde a paranoia momentaneamente dá lugar ao cansaço."
+    }
+  ],
+  "objetivos_imediatos": [
+    {
+      "item": "Obter ou Proteger uma Chave / Documento / Filtro de Carvão de Fenda",
+      "peso": 15,
+      "descricao": "Garantir a posse de um objeto físico indispensável para a próxima etapa."
+    },
+    {
+      "item": "Garantir a Fuga ou Extração Segura de um Aliado Crucial",
+      "peso": 15,
+      "descricao": "Retirar alguém do perigo vivo e capaz de prestar depoimento ou auxílio."
+    },
+    {
+      "item": "Silenciar uma Testemunha ou Destruir Evidências Incriminatórias",
+      "peso": 12,
+      "descricao": "Impedir que segredos vazem para o Consórcio ou para a Inquisição da Colmeia."
+    },
+    {
+      "item": "Fechar uma Rota de Acesso / Selar uma Comporta Blindada",
+      "peso": 12,
+      "descricao": "Interromper o avanço de perseguidores ou bloquear a entrada da névoa no enclave."
+    },
+    {
+      "item": "Estabelecer Contato Seguro com uma Célula Rebelde / Informante",
+      "peso": 12,
+      "descricao": "Trocar a senha de reconhecimento e receber a localização do próximo refúgio."
+    },
+    {
+      "item": "Eliminar o Líder ou Especialista Inimigo sem Disparar Alarme Geral",
+      "peso": 10,
+      "descricao": "Neutralizar a ameaça principal de forma cirúrgica e rápida."
+    },
+    {
+      "item": "Descobrir a Localização Exata do Próximo Alvo ou QG Inimigo",
+      "peso": 10,
+      "descricao": "Extrair coordenadas ou instruções precisas antes que a oportunidade expire."
+    }
+  ],
+  "fatores_pressao_urgencia": [
+    {
+      "item": "Contagem Regressiva de Filtro / Asfixia Iminente",
+      "peso": 15,
+      "descricao": "O ar na sala ou as máscaras do grupo têm apenas poucos minutos de oxigênio purificado restante."
+    },
+    {
+      "item": "Reforços Inimigos a Caminho (Sirenes ou Passos Pesados)",
+      "peso": 15,
+      "descricao": "Uma tropa fortemente armada já foi despachada e chegará em instantes."
+    },
+    {
+      "item": "A Névoa Rubra Começa a Rastejar pelas Frestas das Portas",
+      "peso": 14,
+      "descricao": "O tempo para falar em voz alta e agir abertamente está acabando rapidamente."
+    },
+    {
+      "item": "Instabilidade Estrutural Crescente (Vigas Rachando / Vazamento de Vapor)",
+      "peso": 12,
+      "descricao": "O teto está cedendo ou tubos de vapor estão prestes a explodir com calor mortal."
+    },
+    {
+      "item": "Oportunidade Fugaz de 3 Minutos de Troca de Guarda",
+      "peso": 12,
+      "descricao": "A brecha na vigilância é minúscula; qualquer atraso resultará em captura certa."
+    },
+    {
+      "item": "Um Aliado Gravemente Ferido Está Sangrando até a Morte",
+      "peso": 12,
+      "descricao": "Cada segundo gasto sem prestar socorro diminui drasticamente as chances de sobrevivência."
+    },
+    {
+      "item": "Sem Pressão Imediata de Tempo (Tensão Psicológica Silenciosa)",
+      "peso": 10,
+      "descricao": "O perigo é iminente porém estático; o erro decorrerá da hesitação ou da paranoia."
+    }
+  ]
+}

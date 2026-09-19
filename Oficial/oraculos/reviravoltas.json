@@ -1,0 +1,191 @@
+{
+  "nome_tabela": "Reviravoltas de Enredo",
+  "descricao": "Complicações inesperadas, revelações e rupturas táticas organizadas por categorias",
+  "controle_ocorrencia": [
+    {
+      "item": "Nenhuma Reviravolta (A cena segue o fluxo natural)",
+      "peso": 40,
+      "descricao": "O objetivo e as ações dos personagens se desenvolvem conforme o planejado, sem interferências caóticas externas."
+    },
+    {
+      "item": "Revelações e Enganos",
+      "peso": 15,
+      "descricao": "Uma verdade aceita revela-se uma mentira, documento forjado ou armadilha premeditada."
+    },
+    {
+      "item": "Interrupções e Terceiras Facções",
+      "peso": 15,
+      "descricao": "Forças externas não esperadas invadem a cena com seus próprios interesses antagônicos."
+    },
+    {
+      "item": "Anomalias Ambientais e Colapso do Cenário",
+      "peso": 12,
+      "descricao": "O ambiente físico sofre uma mutação perigosa, desabamento ou manifestação anômala do mundo."
+    },
+    {
+      "item": "Falhas Críticas de Recursos e Equipamento",
+      "peso": 10,
+      "descricao": "Um item essencial, rota de fuga ou mecanismo vital falha no momento mais inoportuno."
+    },
+    {
+      "item": "Dilemas Morais Repentinos e Conflitos de Lealdade",
+      "peso": 8,
+      "descricao": "Uma escolha urgente exige o sacrifício de um princípio ético, de um aliado ou de uma vantagem crucial."
+    }
+  ],
+  "revelacoes_e_enganos": [
+    {
+      "item": "A Pista ou Informação Era uma Isca Deliberada",
+      "peso": 15,
+      "descricao": "O que parecia um achado fortuito foi plantado pelo antagonista para atrair os personagens para uma armadilha."
+    },
+    {
+      "item": "O Alvo ou Relíquia é Falso / Uma Cópia",
+      "peso": 15,
+      "descricao": "O objeto ou documento pelo qual todos lutam não passa de uma réplica de isca; o verdadeiro já foi levado."
+    },
+    {
+      "item": "Identidade Oculta Revelada",
+      "peso": 12,
+      "descricao": "Um NPC presente é secretamente um agente infiltrado, um desertor disfarçado ou o próprio mandante do crime."
+    },
+    {
+      "item": "O Contratante é o Próprio Culpado",
+      "peso": 12,
+      "descricao": "Descobre-se que quem encomendou a missão foi o arquiteto do problema original para encobrir seus rastros."
+    },
+    {
+      "item": "A Vítima Não é Quem Parecia Ser",
+      "peso": 10,
+      "descricao": "A pessoa supostamente indefesa ou injustiçada é na verdade uma criminosa fria ou manipuladora."
+    },
+    {
+      "item": "Cumplicidade Inesperada entre Inimigos Declarados",
+      "peso": 10,
+      "descricao": "Duas figuras ou facções que deveriam ser rivais mortais estão secretamente em conluio para dividir o lucro."
+    }
+  ],
+  "interrupcoes_e_terceiras_faccoes": [
+    {
+      "item": "Invasão Repentina de uma Facção Rival",
+      "peso": 15,
+      "descricao": "Um grupo armado concorrente arromba o local buscando roubar o mesmo objetivo ou eliminar todos os presentes."
+    },
+    {
+      "item": "Intervenção da Autoridade Oficial / Patrulha da Lei",
+      "peso": 15,
+      "descricao": "Forças da lei marcial, autômatos de patrulha ou inquisidores cercam o perímetro exigindo rendição imediata."
+    },
+    {
+      "item": "Civis Inocentes / Reféns no Fogo Cruzado",
+      "peso": 12,
+      "descricao": "Pessoas desarmadas ou dependentes entram no meio do conflito, complicando o uso de força letal."
+    },
+    {
+      "item": "Retorno de um Inimigo que se Acreditava Derrotado",
+      "peso": 12,
+      "descricao": "Um adversário dado como morto ou neutralizado ressurge com reforços ou sede de vingança."
+    },
+    {
+      "item": "Aparecimento de Criaturas / Anomalias Atraídas pelo Barulho",
+      "peso": 10,
+      "descricao": "O tumulto atrai aberrações famintas do Vazio ou predadores dos túneis subterrâneos."
+    },
+    {
+      "item": "Mercenário Contratado Troca de Lado em Plena Ação",
+      "peso": 10,
+      "descricao": "Um capanga ou combatente secundário aceita uma contraproposta financeira no meio da luta."
+    }
+  ],
+  "anomalias_ambientais_e_cenario": [
+    {
+      "item": "A Névoa Rubra / Tóxica Desce Prematuramente",
+      "peso": 15,
+      "descricao": "O nevoeiro rasteja para dentro do ambiente, forçando o silêncio ritual e ameaçando vazar pensamentos inconfessáveis."
+    },
+    {
+      "item": "Vazamento Catastrófico de Vapor ou Gás Alquímico",
+      "peso": 15,
+      "descricao": "Uma caldeira estala ou tubulações rompem, inundando a área com calor escaldante e visibilidade nula."
+    },
+    {
+      "item": "Colapso Estrutural do Piso ou Teto",
+      "peso": 14,
+      "descricao": "A estrutura em ruínas cede sob o peso ou impacto, precipitando os personagens para um nível subterrâneo desconhecido."
+    },
+    {
+      "item": "Oscilação Gravitacional ou Fenda Dimensional Momentânea",
+      "peso": 12,
+      "descricao": "A gravidade vacila ou objetos começam a flutuar/cristalizar devido a uma micro-fissura do Vazio nas proximidades."
+    },
+    {
+      "item": "Incêndio Incontrolável Bloqueia a Única Saída Conhecida",
+      "peso": 12,
+      "descricao": "Fagulhas atingem depósitos de combustível ou fuligem, transformando a sala em uma armadilha em chamas."
+    },
+    {
+      "item": "Apagão Total de Energia e Iluminação",
+      "peso": 12,
+      "descricao": "Os geradores a vapor ou lâmpadas a gás morrem de uma vez, mergulhando o confronto na escuridão absoluta."
+    }
+  ],
+  "falhas_de_recursos_e_equipamento": [
+    {
+      "item": "A Máscara de Filtro de Ar ou Amortecedor Acústico Racha",
+      "peso": 15,
+      "descricao": "O equipamento de sobrevivência sofre avaria crítica, iniciando uma contagem regressiva para asfixia ou vazamento psíquico."
+    },
+    {
+      "item": "A Arma / Mecanismo Principal Emperra no Momento Decisivo",
+      "peso": 15,
+      "descricao": "Uma falha mecânica exige ação improvisada rápida ou corpo a corpo desesperado."
+    },
+    {
+      "item": "O Combustível / Carvão de Fenda Está Adulterado ou Esgotado",
+      "peso": 14,
+      "descricao": "O veículo, máquina ou respirador para de funcionar por falta de carga adequada."
+    },
+    {
+      "item": "A Chave / Código de Acesso Não Funciona",
+      "peso": 12,
+      "descricao": "A porta blindada ou cofre possui um mecanismo secundário não documentado que bloqueia a passagem."
+    },
+    {
+      "item": "O Meio de Comunicação / Transmissão de Sinais é Interceptado",
+      "peso": 12,
+      "descricao": "O sinal de resgate ou aviso é cortado ou captado diretamente pelos inimigos."
+    },
+    {
+      "item": "O Medicamento / Antídoto é Derramado ou Destruído",
+      "peso": 12,
+      "descricao": "O único frasco capaz de salvar alguém ferido quebra-se durante o embate."
+    }
+  ],
+  "dilemas_morais_e_conflitos_lealdade": [
+    {
+      "item": "A Fuga Exige Abandonar um Inocente ou Aliado Ferido",
+      "peso": 15,
+      "descricao": "Não há tempo nem espaço para carregar todos; salvar o grupo principal exige uma perda amarga."
+    },
+    {
+      "item": "A Prova Encontrada Destrói a Reputação de um Mentor Querido",
+      "peso": 15,
+      "descricao": "O documento resgatado expõe que uma figura respeitada esteve por trás de atrocidades no passado."
+    },
+    {
+      "item": "Para Concluir a Missão, é Preciso Destruir o Sustento de Párias",
+      "peso": 14,
+      "descricao": "Destruir a forja ou depósito do vilão deixará dezenas de famílias operárias na miséria absoluta."
+    },
+    {
+      "item": "O Inimigo Oferece a Cura ou Solução em Troca de Conivência",
+      "peso": 12,
+      "descricao": "O antagonista propõe entregar exatamente o que os protagonistas mais precisam se eles simplesmente olharem para o outro lado."
+    },
+    {
+      "item": "Um Segredo Pessoal é Revelado aos Gritos perante o Grupo",
+      "peso": 12,
+      "descricao": "A névoa ou uma chantagem expõe uma mentira do protagonista, abalando a confiança dos aliados imediatos."
+    }
+  ]
+}

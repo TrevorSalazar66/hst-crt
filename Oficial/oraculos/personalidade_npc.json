@@ -1,0 +1,375 @@
+{
+  "nome_tabela": "Personalidade e Comportamento de NPCs",
+  "descricao": "Tabelas modulares para geração de profundidade psicológica, comportamento, falhas e valores de NPCs",
+  "arquetipos": [
+    {
+      "item": "O Mentor Cansado / Veterano Cínico",
+      "peso": 15,
+      "descricao": "Já viu de tudo, sobreviveu a perdas irreparáveis e ensina através de avisos duros e pouca paciência."
+    },
+    {
+      "item": "O Oportunista / Trapaceiro das Sombras",
+      "peso": 15,
+      "descricao": "Navega nas brechas da lei e da moral; busca vantagens rápidas, mas valoriza quem não tenta enganá-lo."
+    },
+    {
+      "item": "O Protetor Feroz / Guardião Obstinado",
+      "peso": 12,
+      "descricao": "Vive em função de proteger um grupo, território ou indivíduo vulnerável; desconfia imediatamente de forasteiros."
+    },
+    {
+      "item": "O Fanático / Fiel Iluminado",
+      "peso": 12,
+      "descricao": "Guiado por um dogma religioso, ideologia rígida ou visão cósmica; não aceita relativismos."
+    },
+    {
+      "item": "O Burocrata / Negociante Frio",
+      "peso": 12,
+      "descricao": "Enxerga o mundo através de contratos, dívidas, permissões e lucros; não se move sem garantias formais."
+    },
+    {
+      "item": "O Investigador / Erudito Obsessivo",
+      "peso": 10,
+      "descricao": "Movido por curiosidade intelectual perigosa; arriscaria a própria segurança para desvendar um segredo proibido."
+    },
+    {
+      "item": "O Desertor / Sobrevivente Assombrado",
+      "peso": 10,
+      "descricao": "Carrega a culpa de um passado traumático; tenta passar despercebido e evita conflitos a qualquer custo."
+    },
+    {
+      "item": "O Tirano em Miniatura / Pequena Autoridade",
+      "peso": 8,
+      "descricao": "Usa a pouca autoridade ou monopólio que tem para intimidar, exigir subornos e se sentir poderoso."
+    },
+    {
+      "item": "O Idealista Ingênuo / Otimista Teimoso",
+      "peso": 6,
+      "descricao": "Ainda acredita em redenção, justiça ou um futuro melhor, destoando da decadência ao seu redor."
+    }
+  ],
+  "tracos_personalidade": [
+    {
+      "item": "Cínico e Desconfiado",
+      "peso": 15,
+      "descricao": "Presume segundas intenções em qualquer ato de gentileza e testa a lealdade alheia constantemente."
+    },
+    {
+      "item": "Frio, Metódico e Calculista",
+      "peso": 15,
+      "descricao": "Raramente altera o tom de voz; analisa riscos e probabilidades antes de qualquer palavra."
+    },
+    {
+      "item": "Empático e Protetor",
+      "peso": 12,
+      "descricao": "Sensível ao sofrimento alheio; disposto a estender a mão mesmo quando isso traz riscos."
+    },
+    {
+      "item": "Volátil e Impulsivo",
+      "peso": 12,
+      "descricao": "Reage com intensidade desmedida a provocações; age primeiro e pensa nas consequências depois."
+    },
+    {
+      "item": "Melancólico e Fatalista",
+      "peso": 12,
+      "descricao": "Enxerga a tragédia como inevitável; fala com pesar poético sobre a futilidade das lutas humanas."
+    },
+    {
+      "item": "Sagaz e Manipulador",
+      "peso": 10,
+      "descricao": "Usa meias-verdades, elogios sutis e chantagens emocionais para fazer os outros agirem por ele."
+    },
+    {
+      "item": "Honrado, Severo e Inflexível",
+      "peso": 10,
+      "descricao": "Segue um código pessoal estrito; não quebra promessas, mas não perdoa falhas dos outros."
+    },
+    {
+      "item": "Jovial e Descontraído (Máscara Defensiva)",
+      "peso": 8,
+      "descricao": "Usa piadas, ironias e humor negro para mascarar um pavor profundo ou desespero interior."
+    },
+    {
+      "item": "Paranoico e Sussurrante",
+      "peso": 6,
+      "descricao": "Sente que está sendo vigiado o tempo todo; muda de esconderijo com frequência e teme armadilhas."
+    }
+  ],
+  "trejeitos": [
+    {
+      "item": "Tamborila os dedos compulsivamente em superfícies metálicas ou de madeira",
+      "peso": 12,
+      "descricao": "Expressa impaciência, ansiedade ou ritmo de pensamento acelerado."
+    },
+    {
+      "item": "Fala em sussurros cautelosos, olhando constantemente por cima dos ombros",
+      "peso": 12,
+      "descricao": "Hábito arraigado de quem teme ser ouvido pela névoa, espiões ou patrulhas."
+    },
+    {
+      "item": "Evita contato visual direto, focando nas mãos ou nas armas do interlocutor",
+      "peso": 12,
+      "descricao": "Postura defensiva de quem antecipa agressão ou esconde as próprias emoções."
+    },
+    {
+      "item": "Ajusta ou toca repetidamente uma cicatriz, amuleto ou máscara facial",
+      "peso": 10,
+      "descricao": "Gesto âncora ligado a um trauma passado ou superstição de proteção."
+    },
+    {
+      "item": "Usa metáforas anacrônicas ou provérbios populares cortantes em respostas",
+      "peso": 10,
+      "descricao": "Forma oblíqua de responder sem se comprometer diretamente com uma afirmação."
+    },
+    {
+      "item": "Sorri de forma seca e desconfortável em momentos de alta tensão ou perigo",
+      "peso": 10,
+      "descricao": "Mecanismo inconsciente de enfrentamento contra o medo extremo."
+    },
+    {
+      "item": "Limpa ou afia obsessivamente uma ferramenta, lâmina ou caneta enquanto conversa",
+      "peso": 10,
+      "descricao": "Demonstração sutil de prontidão física e controle sobre o ambiente."
+    },
+    {
+      "item": "Faz pausas longas e calculadas antes de responder a perguntas diretas",
+      "peso": 8,
+      "descricao": "Mede cada sílaba para garantir que não entregará informações desnecessárias."
+    },
+    {
+      "item": "Gesticula com movimentos curtos e fechados, como se usasse código de sinais",
+      "peso": 8,
+      "descricao": "Influência de dialetos gestuais clandestinos ou disciplina militar estrita."
+    },
+    {
+      "item": "Mascara o cheiro do ambiente queimando ervas, fumando ou mascando raízes amargas",
+      "peso": 8,
+      "descricao": "Hábito sensorial contra a fuligem, a podridão ou a névoa das ruas."
+    }
+  ],
+  "vicios": [
+    {
+      "item": "Consumo compulsivo de estimulantes / elixires alquímicos ou fumo pesado",
+      "peso": 15,
+      "descricao": "Depende da substância para manter a concentração, conter tremores ou afastar o sono."
+    },
+    {
+      "item": "Jogo de azar e apostas de alto risco",
+      "peso": 15,
+      "descricao": "Incapaz de resistir a uma aposta clandestina, acumulando dívidas com figuras perigosas."
+    },
+    {
+      "item": "Colecionismo obsessivo de relíquias, documentos ou fetiches bizarros",
+      "peso": 12,
+      "descricao": "Gasta recursos essenciais para adquirir objetos peculiares sem utilidade prática imediata."
+    },
+    {
+      "item": "Adrenalina e busca desnecessária por situações de perigo iminente",
+      "peso": 12,
+      "descricao": "Sente-se entorpecido na calmaria e busca o caos para se sentir vivo."
+    },
+    {
+      "item": "Consumo de bebidas destiladas clandestinas / solventes alucinógenos",
+      "peso": 12,
+      "descricao": "Bebe para anestesiar memórias traumáticas, ficando vulnerável e falante quando embriagado."
+    },
+    {
+      "item": "Vaidade estética extravagante e exibicionismo material",
+      "peso": 10,
+      "descricao": "Prioriza roupas finas, adornos ou armas polidas mesmo em meio à miséria e à lama."
+    },
+    {
+      "item": "Fascínio mórbido por autópsias, venenos ou anomalias do Vazio",
+      "peso": 10,
+      "descricao": "Interesse doentio por temas grotescos que causam repulsa na maioria das pessoas."
+    },
+    {
+      "item": "Cleptomania compulsiva de pequenos objetos sem valor",
+      "peso": 8,
+      "descricao": "Furta miudezas como hábito involuntário, correndo riscos desproporcionais."
+    },
+    {
+      "item": "Compra de segredos íntimos e fofocas sujas em mercados clandestinos",
+      "peso": 6,
+      "descricao": "Viciado na sensação de ter controle sobre a vida e os podres alheios."
+    }
+  ],
+  "fraquezas_morais": [
+    {
+      "item": "Ganância desmedida por ouro, créditos ou recursos vitais",
+      "peso": 15,
+      "descricao": "Capaz de reconsiderar qualquer princípio ético se o preço oferecido for alto o suficiente."
+    },
+    {
+      "item": "Orgulho ferido e incapacidade de aceitar desrespeito ou humilhação",
+      "peso": 15,
+      "descricao": "Guarda rancores mortais por insultos menores e prefere a ruína a pedir desculpas."
+    },
+    {
+      "item": "Covardia imediata perante autoridade superior ou demonstração de força bruta",
+      "peso": 14,
+      "descricao": "Foge, recua ou se ajoelha assim que a desvantagem física se torna evidente."
+    },
+    {
+      "item": "Inveja corrosiva do sucesso ou da liberdade alheia",
+      "peso": 12,
+      "descricao": "Ressente quem prospera e sente prazer secreto em sabotar conquistas de terceiros."
+    },
+    {
+      "item": "Crueldade sádica com quem está em posição de fraqueza",
+      "peso": 12,
+      "descricao": "Gosta de humilhar e prolongar o sofrimento de subordinados, cativos ou desamparados."
+    },
+    {
+      "item": "Ingenuidade excessiva e carência afetiva",
+      "peso": 12,
+      "descricao": "Confia com facilidade em quem demonstra o mínimo de afeto ou validação pessoal."
+    },
+    {
+      "item": "Hipocrisia dogmática",
+      "peso": 10,
+      "descricao": "Exige conduta moral impecável dos outros, mas quebra secretamente todas as regras que prega."
+    },
+    {
+      "item": "Egoísmo absoluto e indiferença ao destino dos demais",
+      "peso": 10,
+      "descricao": "Não move um dedo para ajudar ninguém se não houver ganho direto e palpável para si."
+    }
+  ],
+  "falhas_fatais": [
+    {
+      "item": "Trai imediatamente qualquer pacto ou aliado sob ameaça direta de dor física ou tortura",
+      "peso": 15,
+      "descricao": "Seu limiar de tolerância ao sofrimento é nulo; entrega qualquer segredo sob pressão."
+    },
+    {
+      "item": "Cede a chantagens se um ente querido ou dependente for colocado em risco",
+      "peso": 15,
+      "descricao": "Seu ponto cego é uma pessoa específica pela qual sacrificaria todos os outros."
+    },
+    {
+      "item": "Paralisa completamente de pavor diante de anomalias da névoa ou horrores cósmicos",
+      "peso": 14,
+      "descricao": "Um gatilho traumático antigo desliga suas funções motoras e o deixa em choque catatônico."
+    },
+    {
+      "item": "Incapaz de manter a calma perante traição, tornando-se cego de fúria autodestrutiva",
+      "peso": 12,
+      "descricao": "Perde todo o cálculo racional e ataca de peito aberto quando se sente enganado."
+    },
+    {
+      "item": "Possui uma dívida impagável com uma facção criminosa que pode exigir sua vida a qualquer hora",
+      "peso": 12,
+      "descricao": "Está nas mãos de criminosos que o usam como peão descartável quando necessário."
+    },
+    {
+      "item": "Guarda evidências incriminatórias que provam sua cumplicidade em um crime histórico hediondo",
+      "peso": 12,
+      "descricao": "Se essa verdade vier à tona, será executado ou linchado pela população."
+    },
+    {
+      "item": "Inflexibilidade fatal: prefere morrer lutando a recuar de um plano manifestamente falho",
+      "peso": 10,
+      "descricao": "A teimosia cega o impede de recalcular rotas, arrastando subordinados para a morte."
+    },
+    {
+      "item": "Suborno garantido: qualquer lealdade sua pode ser comprada se o valor cobrir sua fuga definitiva",
+      "peso": 10,
+      "descricao": "Não existe juramento inquebrável diante do bilhete de saída do inferno em que vive."
+    }
+  ],
+  "valores": [
+    {
+      "item": "A Palavra Dita e a Honra de Sangue",
+      "peso": 15,
+      "descricao": "Um pacto firmado olho no olho é sagrado; prefere a desgraça a ser rotulado como traidor."
+    },
+    {
+      "item": "Proteção e Sobrevivência Familiar a Qualquer Custo",
+      "peso": 15,
+      "descricao": "A segurança da sua linhagem ou pequeno grupo está acima das leis dos homens e dos deuses."
+    },
+    {
+      "item": "A Busca Incondicional pela Verdade e pelo Saber",
+      "peso": 12,
+      "descricao": "A ignorância é a verdadeira escravidão; fatos e conhecimentos devem ser preservados e descobertos."
+    },
+    {
+      "item": "Lealdade Cega à Facção / Guilda / Irmandade",
+      "peso": 12,
+      "descricao": "A instituição é maior que o indivíduo; obedece à hierarquia com devoção inquestionável."
+    },
+    {
+      "item": "Independência Pessoal e Autonomia Financeira",
+      "peso": 12,
+      "descricao": "Não dever favores nem dinheiro a ninguém é sua maior conquista e prioridade de vida."
+    },
+    {
+      "item": "Justiça Punitiva / Olho por Olho",
+      "peso": 12,
+      "descricao": "Nenhum crime deve passar impune; o equilíbrio deve ser restabelecido pela retribuição direta."
+    },
+    {
+      "item": "Preservação da Dignidade dos Desamparados",
+      "peso": 10,
+      "descricao": "Acredita que uma sociedade é medida pelo modo como trata seus párias e excluídos."
+    },
+    {
+      "item": "A Excelência do Ofício e o Rigor Profissional",
+      "peso": 8,
+      "descricao": "Orgulho visceral da própria técnica; jamais entrega um trabalho malfeito ou incompleto."
+    },
+    {
+      "item": "A Ordem e a Disciplina contra o Caos",
+      "peso": 4,
+      "descricao": "Regras rígidas e punições severas são necessárias para evitar que o mundo colapse."
+    }
+  ],
+  "crencas": [
+    {
+      "item": "\"O mundo já está condenado; resta apenas acumular o máximo antes que o Vazio devore tudo.\"",
+      "peso": 15,
+      "descricao": "Visão niilista prática que justifica o pragmatismo e a falta de escrúpulos com o futuro."
+    },
+    {
+      "item": "\"Todo ser humano tem um preço ou um ponto de quebra; lealdade absoluta é ilusão de tolos.\"",
+      "peso": 15,
+      "descricao": "Acredita que relacionamentos são transacionais e baseados em pressão e recompensa."
+    },
+    {
+      "item": "\"O silêncio é a única armadura infalível; quem muito fala cava a própria cova na névoa.\"",
+      "peso": 14,
+      "descricao": "Filosofia de contenção absoluta de palavras e emoções para evitar vulnerabilidades."
+    },
+    {
+      "item": "\"O sofrimento e as fendas são provações cósmicas que separam os fortes dos descartáveis.\"",
+      "peso": 12,
+      "descricao": "Darwinismo místico que enxerga a dor como forja de aprimoramento individual."
+    },
+    {
+      "item": "\"Quem detém o controle dos recursos essenciais dita o que é moral e o que é crime.\"",
+      "peso": 12,
+      "descricao": "Realismo político focado no poder material e na dependência dos vulneráveis."
+    },
+    {
+      "item": "\"Existe uma centelha divina ou esperança oculta mesmo sob as cinzas mais escuras.\"",
+      "peso": 10,
+      "descricao": "Fé resiliente que sustenta o personagem em meio às piores calamidades."
+    },
+    {
+      "item": "\"O passado sempre cobra sua dívida; ninguém foge das cinzas daquilo que queimou.\"",
+      "peso": 10,
+      "descricao": "Crença no retorno inevitável das consequências de atos antigos."
+    },
+    {
+      "item": "\"A autoridade estabelecida é um parasita que precisa ser enganado para podermos respirar.\"",
+      "peso": 8,
+      "descricao": "Desconfiança visceral contra qualquer figura que use distintivo, farda ou toga."
+    },
+    {
+      "item": "\"As fendas cósmicas não são uma maldição, mas uma porta para a próxima evolução da espécie.\"",
+      "peso": 4,
+      "descricao": "Fascínio esotérico herético que flerta com o perigo primordial."
+    }
+  ]
+}

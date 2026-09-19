@@ -1,0 +1,524 @@
+{
+  "generos": [
+    {
+      "item": "Fantasia Medieval Sombria (Dark Fantasy)",
+      "peso": 15
+    },
+    {
+      "item": "Cyberpunk / Sci-Fi Urbano Distópico",
+      "peso": 15
+    },
+    {
+      "item": "Fantasia Urbana / Magia Oculta na Cidade",
+      "peso": 12
+    },
+    {
+      "item": "Fantasia Épica",
+      "peso": 15
+    },
+    {
+      "item": "Space Opera / Ficção Científica Galáctica",
+      "peso": 12
+    },
+    {
+      "item": "Terror Cósmico / Horror Gótico Lovrecraftiano",
+      "peso": 12
+    },
+    {
+      "item": "Pós-Apocalíptico / Ermos Desolados",
+      "peso": 12
+    },
+    {
+      "item": "Steampunk / Dieselpunk Industrial Vitoriano",
+      "peso": 10
+    },
+    {
+      "item": "Solarpunk / Ficção Ecológica e Bio-distopia",
+      "peso": 8
+    },
+    {
+      "item": "Weird West / Faroeste Ocultista e Sobrenatural",
+      "peso": 8
+    },
+    {
+      "item": "Horror Biológico (Body Horror) / Biopunk",
+      "peso": 8
+    },
+    {
+      "item": "Espada e Feitiçaria",
+      "peso": 2
+    },
+    {
+      "item": "Multiverso",
+      "peso": 2
+    }
+  ],
+  "adjetivos_atmosfera": [
+    {
+      "item": "Decadente, Fumegante e Asfixiante",
+      "peso": 12
+    },
+    {
+      "item": "Tóxico, Chuvoso e Cintilante de Néon",
+      "peso": 12
+    },
+    {
+      "item": "Submerso, Abissal e Esotérico",
+      "peso": 10
+    },
+    {
+      "item": "Anacrônico, Enferrujado e Movido a Vapor",
+      "peso": 10
+    },
+    {
+      "item": "Onírico, Alucinatório e Distorcido",
+      "peso": 10
+    },
+    {
+      "item": "Congelado, Silencioso e Desolado",
+      "peso": 10
+    },
+    {
+      "item": "Solar, Implacável e Árido",
+      "peso": 10
+    },
+    {
+      "item": "Claustrofóbico, Metálico e Industrial",
+      "peso": 9
+    },
+    {
+      "item": "Etéreo, Melancólico e Espectral",
+      "peso": 9
+    },
+    {
+      "item": "Festivo, Barroco porém Bizarro e Macabro",
+      "peso": 8
+    }
+  ],
+  "sistema_poder_nivel": [
+    {
+      "item": "Nenhum (Mundo Ordinário, Brutal e Hiper-realista)",
+      "peso": 20
+    },
+    {
+      "item": "Sutil, Raro e Perigoso (Oculto aos olhos comuns)",
+      "peso": 25
+    },
+    {
+      "item": "Presente mas Instável (Cobrança de alto custo/sanidade)",
+      "peso": 25
+    },
+    {
+      "item": "Generalizado e Cotidiano (Integrado na sociedade e comércio)",
+      "peso": 18
+    },
+    {
+      "item": "Escala Cósmica e Devastadora (Forças capazes de alterar a realidade)",
+      "peso": 12
+    }
+  ],
+  "sistema_poder_fonte": [
+    {
+      "item": "Arcano / Mágico Tradicional (Fórmulas, runas e círculos)",
+      "peso": 12
+    },
+    {
+      "item": "Cibernético e Nanotecnológico (Implantes, wetware e código)",
+      "peso": 12
+    },
+    {
+      "item": "Biológico e Mutagênico (Enxertos genéticos e metamorfose orgânica)",
+      "peso": 10
+    },
+    {
+      "item": "Psiônico e Espiritual (Poder mental puro, projeção astral e telepatia)",
+      "peso": 10
+    },
+    {
+      "item": "Divino e Fanático (Concedido por devoção, dogmas e fé cega)",
+      "peso": 10
+    },
+    {
+      "item": "Cósmico e Alienígena (Energias vindas de fendas interdimensionais)",
+      "peso": 10
+    },
+    {
+      "item": "Alquímico e Farmacológico (Drogas raras, elixires e compostos químicos)",
+      "peso": 10
+    },
+    {
+      "item": "Pacto de Sangue e Sacrifício (Cobrado em vitalidade, dor ou almas)",
+      "peso": 9
+    },
+    {
+      "item": "Arqueotecnologia Ancestral (Relíquias deixadas por uma civilização extinta)",
+      "peso": 9
+    },
+    {
+      "item": "Manipulação Conceitual (Uso da verdadeira linguagem da criação e do tempo)",
+      "peso": 8
+    }
+  ],
+  "sistemas_governo": [
+    {
+      "item": "Corporatocracia Global (Megacorporações e monopólios privados governam)",
+      "peso": 12
+    },
+    {
+      "item": "Algocracia / IA Suprema (Decisões automatizadas por diretrizes de código)",
+      "peso": 10
+    },
+    {
+      "item": "Teocracia Dogmática / Inquisição Sagrada (Líderes religiosos infalíveis)",
+      "peso": 10
+    },
+    {
+      "item": "Magocracia / Conselho Arcano (Os mais versados nas artes misteriosas mandam)",
+      "peso": 10
+    },
+    {
+      "item": "Feudalismo Bélico / Casas Nobres Rivais (Pacto de vassalos e honra marcial)",
+      "peso": 10
+    },
+    {
+      "item": "Anarquia de Facções / Tribos Fragmentadas (Apenas a lei do mais forte vigora)",
+      "peso": 10
+    },
+    {
+      "item": "Autocracia Militar / Ditadura em Lei Marcial (Forças armadas no comando)",
+      "peso": 10
+    },
+    {
+      "item": "Gerontocracia de Imortais (Seres que venceram a morte acumulam todo o poder)",
+      "peso": 8
+    },
+    {
+      "item": "Plutocracia Mercantil / Guildas de Comércio (Quem detém o capital dita as regras)",
+      "peso": 8
+    },
+    {
+      "item": "Colmeia Biológica / Consciência Coletiva (Comando central telepático ou hormonal)",
+      "peso": 6
+    },
+    {
+      "item": "Democracia Burocrática Corrompida (Estruturas legais falidas e subornadas)",
+      "peso": 6
+    }
+  ],
+  "peculiaridades_condicoes": [
+    {
+      "item": "Quando uma mentira ou falso juramento é proferido em voz alta",
+      "peso": 10
+    },
+    {
+      "item": "A cada ciclo de alinhamento das luas ou eclipses solares",
+      "peso": 10
+    },
+    {
+      "item": "No exato instante em que alguém morre sem deixar descendentes",
+      "peso": 10
+    },
+    {
+      "item": "Durante tempestades de partículas ou chuvas de poeira luminosa",
+      "peso": 10
+    },
+    {
+      "item": "Ao cruzar os limites das muralhas ou perímetros energéticos urbanos",
+      "peso": 10
+    },
+    {
+      "item": "Sempre que uma memória é deliberadamente esquecida ou apagada",
+      "peso": 10
+    },
+    {
+      "item": "Nas noites em que a névoa rubra/escura rasteja pelo solo",
+      "peso": 10
+    },
+    {
+      "item": "Ao tocar ou extrair água pura não tratada",
+      "peso": 10
+    },
+    {
+      "item": "Em locais onde houve massacre histórico ou grande tragédia",
+      "peso": 10
+    },
+    {
+      "item": "Abaixo de cem metros do nível do mar ou em túneis subterrâneos profundos",
+      "peso": 10
+    }
+  ],
+  "peculiaridades_manifestacoes": [
+    {
+      "item": "a gravidade se inverte localmente criando zonas de flutuação caótica",
+      "peso": 10
+    },
+    {
+      "item": "sombras se desprendem dos corpos e ganham massa física agressiva",
+      "peso": 10
+    },
+    {
+      "item": "o tempo desacelera quase parando para todos exceto quem iniciou o ato",
+      "peso": 10
+    },
+    {
+      "item": "a matéria inorgânica ao redor começa a se cristalizar em vidro reflexivo",
+      "peso": 10
+    },
+    {
+      "item": "os pensamentos mais obscuros num raio de 50 metros se tornam audíveis",
+      "peso": 10
+    },
+    {
+      "item": "feridas físicas sofridas são transferidas instantaneamente para o ser mais próximo",
+      "peso": 10
+    },
+    {
+      "item": "o solo exala vapores alucinógenos que projetam os piores traumas dos presentes",
+      "peso": 10
+    },
+    {
+      "item": "surgem ecos espectrais do passado repetindo suas últimas palavras em uníssono",
+      "peso": 10
+    },
+    {
+      "item": "superfícies espelhadas mostram o estado real de decomposição de cada alma",
+      "peso": 10
+    },
+    {
+      "item": "a temperatura despenca subitamente congelando líquidos vitais e fiações",
+      "peso": 10
+    }
+  ],
+  "peculiaridades_impactos_sociais": [
+    {
+      "item": "forçando a sociedade a adotar o silêncio ritual e códigos visuais estritos",
+      "peso": 10
+    },
+    {
+      "item": "tornando o uso contínuo de âncoras de ferro e máscaras de chumbo obrigatório",
+      "peso": 10
+    },
+    {
+      "item": "criando um mercado negro bilionário de memórias puras e indulgências",
+      "peso": 10
+    },
+    {
+      "item": "fazendo com que juramentos sejam tratados e fiscalizados como armas proibidas",
+      "peso": 10
+    },
+    {
+      "item": "instituindo a caça sumária e exílio de qualquer indivíduo suscetível ao fenômeno",
+      "peso": 10
+    },
+    {
+      "item": "transformando a arquitetura de cidades inteiras em labirintos anti-ressonância",
+      "peso": 10
+    },
+    {
+      "item": "obrigando que o sono de cidadãos seja vigiado e interrompido por sentinelas",
+      "peso": 10
+    },
+    {
+      "item": "gerando uma casta de párias sacrificiais designados para absorver as anomalias",
+      "peso": 10
+    },
+    {
+      "item": "estabelecendo cultos religiosos fanáticos dedicados a provocar o efeito",
+      "peso": 10
+    },
+    {
+      "item": "banindo completamente registros escritos e tecnologias de gravação direta",
+      "peso": 10
+    }
+  ],
+  "tons_mundo": [
+    {
+      "item": "Decadência Pós-Guerra (Ruínas majestosas cobertas de cinzas e memórias perdidas)",
+      "peso": 15
+    },
+    {
+      "item": "Distopia Opressiva e Asfixiante (Vigilância onipresente e submissão forçada)",
+      "peso": 15
+    },
+    {
+      "item": "Apocalipse Iminente (Uma contagem regressiva visível no horizonte que ninguém pode parar)",
+      "peso": 14
+    },
+    {
+      "item": "Renascimento Frágil e Selvagem (Uma nova era tentando brotar sobre os escombros da antiga)",
+      "peso": 12
+    },
+    {
+      "item": "Era de Ouro Corrompida (Luxo barroco e prosperidade externa escondendo podridão interna)",
+      "peso": 12
+    },
+    {
+      "item": "Isolacionismo Claustrofóbico (Enclaves isolados separados por terras inabitáveis e hostis)",
+      "peso": 12
+    },
+    {
+      "item": "Caos e Lei do Mais Forte (Instituições colapsadas e sobrevivência puramente predatória)",
+      "peso": 10
+    },
+    {
+      "item": "Realidade Fragmentada e Onírica (O mundo perdeu a solidez e flutua em lógicas de pesadelo)",
+      "peso": 10
+    }
+  ],
+  "tons_narrativa": [
+    {
+      "item": "Noir Investigativo e Cínico (Sombras longas, moral cinzenta e verdades amargas)",
+      "peso": 15
+    },
+    {
+      "item": "Suspense Paranoico e Claustrofóbico (Ninguém é confiável e cada detalhe pode ser uma armadilha)",
+      "peso": 15
+    },
+    {
+      "item": "Ação Visceral e Sobrevivência Brutal (Ritmo acelerado, adrenalina e sangue a cada esquina)",
+      "peso": 15
+    },
+    {
+      "item": "Horror Psicológico e Degradação Mental (A sanidade é o recurso mais frágil e precioso)",
+      "peso": 14
+    },
+    {
+      "item": "Melancólico e Existencialista (Tristeza poética com fagulhas raras de redenção e esperança)",
+      "peso": 14
+    },
+    {
+      "item": "Épico Trágico / Destino Inexorável (Confronto grandioso com a certeza de um sacrifício final)",
+      "peso": 14
+    },
+    {
+      "item": "Intriga Política e Conspiração Traiçoeira (Jogos de poder, veneno e traições de bastidores)",
+      "peso": 13
+    }
+  ],
+  "apice_cenario": [
+    {
+      "item": "O Titã / Deus Primordial Adormecido (Cujo despertar reorganizará a matéria do mundo)",
+      "peso": 12
+    },
+    {
+      "item": "A Inteligência Artificial Ancestral Desgovernada (Que alcançou onisciência e julga a criação)",
+      "peso": 12
+    },
+    {
+      "item": "A Singularidade / Colapso Dimensional (Uma fenda no espaço-tempo sugando a realidade)",
+      "peso": 10
+    },
+    {
+      "item": "O Motor da Realidade / Relíquia Gênese (Artefato que dita as leis físicas e mágicas vigentes)",
+      "peso": 10
+    },
+    {
+      "item": "O Vazio Devorador / Entropia Acelerada (Uma força que gradualmente apaga a matéria da existência)",
+      "peso": 10
+    },
+    {
+      "item": "A Praga Existencial / Doença da Alma (Corrupção que transforma mentes em ecos vazios)",
+      "peso": 10
+    },
+    {
+      "item": "A Simulação Central / Quebra do Código Cósmico (A descoberta de que o mundo é um teste artificial)",
+      "peso": 10
+    },
+    {
+      "item": "O Grande Ciclo de Reinicialização (Fenômeno inevitável que apaga civilizações a cada milênio)",
+      "peso": 9
+    },
+    {
+      "item": "O Panteão de Deuses Mortos em Decomposição (Cujos restos ainda vazam poder contaminado)",
+      "peso": 9
+    },
+    {
+      "item": "A Consciência Planetária Conectada (O próprio mundo é um organismo vivo e hostil)",
+      "peso": 8
+    }
+  ],
+  "antagonistas_tipo": [
+    {
+      "item": "Megacorporação Predatória / Conglomerado Monopolista de Recursos",
+      "peso": 12
+    },
+    {
+      "item": "Seita Fanática / Culto Apocalíptico Ocultista",
+      "peso": 12
+    },
+    {
+      "item": "Tirano Autocrata / General com Máquina de Guerra Absoluta",
+      "peso": 10
+    },
+    {
+      "item": "Consciência Coletiva / Inteligência Desgovernada ou Hive-Mind",
+      "peso": 10
+    },
+    {
+      "item": "Força Natural Consciente / Catástrofe Planetária Viva",
+      "peso": 10
+    },
+    {
+      "item": "Entidade Extradimensional / Parasita Conceitual Devorador de Mentes",
+      "peso": 10
+    },
+    {
+      "item": "Artefato Autônomo Maldito / Mecanismo Antigo Reativado",
+      "peso": 10
+    },
+    {
+      "item": "Sindicato Mercenário Clandestino / Cartel das Sombras",
+      "peso": 9
+    },
+    {
+      "item": "Paradoxo Temporal / Sombra de um Futuro Devastado",
+      "peso": 9
+    },
+    {
+      "item": "Encarnação Arquetípica / A Própria Morte ou Loucura Materializada",
+      "peso": 8
+    }
+  ],
+  "antagonistas_motivacao": [
+    {
+      "item": "Consumir ou canalizar o Ápice do Cenário para transcender a mortalidade e virar um deus",
+      "peso": 12
+    },
+    {
+      "item": "Reescrever as leis da realidade eliminando o livre-arbítrio para erradicar o conflito",
+      "peso": 12
+    },
+    {
+      "item": "Acelerar a aniquilação total por acreditar que a existência material é uma falha dolorosa",
+      "peso": 10
+    },
+    {
+      "item": "Manter um monopólio tirânico sobre o recurso essencial que sustenta a vida da civilização",
+      "peso": 10
+    },
+    {
+      "item": "Vingar uma tragédia ancestral ou massacre esquecido, punindo as gerações inocentes",
+      "peso": 10
+    },
+    {
+      "item": "Conter uma ameaça ainda mais terrível a qualquer custo moral, ético ou de vidas humanas",
+      "peso": 10
+    },
+    {
+      "item": "Coletar e fundir todas as almas/mentes em uma consciência estática e imutável",
+      "peso": 10
+    },
+    {
+      "item": "Despertar o que jamais deveria acordar para reiniciar o ciclo cósmico do zero",
+      "peso": 9
+    },
+    {
+      "item": "Erradicar uma linhagem, espécie ou conceito específico da história e da memória do universo",
+      "peso": 9
+    },
+    {
+      "item": "Lucrar, expandir domínios e se alimentar da perpetuação do caos e do sofrimento contínuo",
+      "peso": 8
+    }
+  ]
+}
