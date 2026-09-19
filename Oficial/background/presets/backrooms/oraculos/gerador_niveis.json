@@ -1,0 +1,53 @@
+{
+  "classes_sobrevivencia": [
+    { "item": "Classe 0 (Seguro / Desprovido de Entidades)", "peso": 2 },
+    { "item": "Classe 1 (Habitável / Baixa Contagem de Entidades)", "peso": 4 },
+    { "item": "Classe 2 (Inseguro / Entidades Moderadas)", "peso": 5 },
+    { "item": "Classe 3 (Perigo Elevado / Infestação de Entidades)", "peso": 4 },
+    { "item": "Classe 4 (Inóspito / Altamente Hostil / Apagões)", "peso": 3 },
+    { "item": "Classe 5 (Zona de Morte / Perigo Extremo e Imediato)", "peso": 1 }
+  ],
+  "temas_arquitetura": [
+    { "item": "Salas de escritório corporativo infinito com carpetes mofados e divisórias cinzas", "peso": 5 },
+    { "item": "Galpões industriais de concreto naval com poças de água e vigas enferrujadas", "peso": 4 },
+    { "item": "Túneis labirínticos de manutenção com tubulações de vapor escaldante", "peso": 4 },
+    { "item": "Hotel decadente com papel de parede vitoriano carmesim e portas infinitas trancadas", "peso": 3 },
+    { "item": "Subsolo de estacionamento de shopping interminável com pilares numerados de forma ilógica", "peso": 4 },
+    { "item": "Piscina pública interior (Poolrooms) com azulejos brancos imaculados e água morna", "peso": 3 },
+    { "item": "Corredores hospitalares com pisos de linóleo manchado e cortinas cirúrgicas rasgadas", "peso": 3 },
+    { "item": "Subúrbio residencial infinito congelado em uma noite eterna sob céu sem estrelas", "peso": 2 },
+    { "item": "Estação de metrô subterrânea sem trilhos com névoa fria subindo do fosso", "peso": 3 },
+    { "item": "Labirinto de arcades e fliperamas retrô piscando em luz neon roxa e amarela", "peso": 2 }
+  ],
+  "iluminacao_e_zumbido": [
+    { "item": "Lâmpadas fluorescentes piscando freneticamente com zumbido ensurdecedor de 60Hz", "peso": 5 },
+    { "item": "Escuridão quase total; apenas pequenas luzes de emergência vermelhas a cada 50 metros", "peso": 4 },
+    { "item": "Luz estroboscópica amarela que desliga de repente a cada 10 minutos (Apagão Súbito)", "peso": 3 },
+    { "item": "Luz difusa e antinatural sem fonte aparente vinda do próprio teto de gesso", "peso": 3 },
+    { "item": "Tubos fluorescentes emitindo um tom azulado gélido e estalando como faíscas", "peso": 2 },
+    { "item": "Luz solar artificial e estática vinda de janelas falsas com silhuetas paradas", "peso": 2 }
+  ],
+  "perigos_ambientais": [
+    { "item": "Vazamento de vapor tóxico/quente de tubulações rompidas que reduz visibilidade", "peso": 4 },
+    { "item": "Pisos falsos que colapsam em quedas para níveis inferiores ou abismos de no-clip", "peso": 3 },
+    { "item": "Fiações elétricas descascadas de alta voltagem suspensas sobre poças de água", "peso": 4 },
+    { "item": "Distorção temporal localizada: relógios giram rápido e o cansaço corporal triplica", "peso": 3 },
+    { "item": "Gás liminar invisível que acelera a perda de sanidade e provoca alucinações auditivas", "peso": 3 },
+    { "item": "Temperatura extrema (ondas de calor sufocante de 45°C seguidas de congelamento súbito)", "peso": 2 },
+    { "item": "Efeito labiríntico magnético: bússolas giram loucamente e marcas em giz somem das paredes", "peso": 4 }
+  ],
+  "anomalias_especiais": [
+    { "item": "Fonte espontânea de Água de Amêndoa gotejando de uma torneira enferrujada", "peso": 4 },
+    { "item": "Caixa de suprimentos selada deixada por uma expedição antiga do M.E.G.", "peso": 3 },
+    { "item": "Rádio transistor antigo sintonizado em uma voz em loop sussurrando coordenadas", "peso": 3 },
+    { "item": "Vending machine funcionando que aceita moedas e entrega itens aleatórios ou perigosos", "peso": 2 },
+    { "item": "Mochila abandonada com diário de anotações de um andarilho desaparecido", "peso": 4 }
+  ],
+  "gatilhos_de_noclip": [
+    { "item": "Atravessar uma parede com textura ligeiramente mais escura e fria ao toque", "peso": 4 },
+    { "item": "Pular dentro de um alçapão enferrujado que não projeta sombra no chão", "peso": 3 },
+    { "item": "Cair propositalmente de costas em uma poça de água espelhada", "peso": 3 },
+    { "item": "Abrir uma porta de incêndio com a maçaneta girando no sentido anti-horário", "peso": 4 },
+    { "item": "Subir uma escadaria de emergência que parece continuar infinitamente para cima", "peso": 2 }
+  ]
+}

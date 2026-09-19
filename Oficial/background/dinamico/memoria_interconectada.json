@@ -1,0 +1,67 @@
+{
+  "versao_schema": "1.0",
+  "descricao": "Índice de memória modular interconectada com pesos de relevância, tags de semitramas e links de rastreabilidade de linhas.",
+  "entidades": [
+    {
+      "id": "npc_exemplo_viktor",
+      "nome": "Viktor, o Ferreiro Caolho",
+      "tipo": "personagem",
+      "peso": 5,
+      "status": "ativo",
+      "tags": ["submundo", "ferraria", "resistencia", "distrito_baixo"],
+      "descricao": "Ferreiro veterano que perdeu o olho esquerdo na Revolta dos Tubos. Forja armas clandestinas e conhece as rotas de fuga dos canais.",
+      "aparicoes": [
+        {
+          "arquivo": "background/fixo/personagens/npcs_chave.md",
+          "linhas": "1-10",
+          "contexto": "Registro inicial da ficha do personagem"
+        }
+      ],
+      "conexoes": [
+        {
+          "entidade_id": "item_exemplo_faca_caca",
+          "relacao": "Forjou a lâmina original"
+        }
+      ]
+    },
+    {
+      "id": "item_exemplo_faca_caca",
+      "nome": "Faca de Caça Forjada",
+      "tipo": "item",
+      "peso": 8,
+      "status": "ativo",
+      "tags": ["equipamento", "combate_corpo_a_corpo", "resistencia"],
+      "descricao": "Lâmina pesada de aço fosco com o cabo enrolado em couro desgastado. Capaz de cortar cabos de pressão e abrir trancas emperradas.",
+      "aparicoes": [
+        {
+          "arquivo": "background/dinamico/estado_personagens.json",
+          "linhas": "18-20",
+          "contexto": "Equipamento ativo inicial do protagonista"
+        }
+      ],
+      "conexoes": [
+        {
+          "entidade_id": "npc_exemplo_viktor",
+          "relacao": "Criada por Viktor"
+        }
+      ]
+    },
+    {
+      "id": "local_exemplo_docas_baixas",
+      "nome": "Docas Baixas do Canal Negro",
+      "tipo": "local",
+      "peso": 6,
+      "status": "ativo",
+      "tags": ["distrito_baixo", "submundo", "contrabando", "nevoa"],
+      "descricao": "Porto fluvial fétido coberto por névoa densa e vazamento de óleo. Ponto de encontro de contrabandistas e patrulhas corruptas.",
+      "aparicoes": [
+        {
+          "arquivo": "background/dinamico/estado_mundo.json",
+          "linhas": "2-3",
+          "contexto": "Região adjacente ao Ponto de Partida"
+        }
+      ],
+      "conexoes": []
+    }
+  ]
+}

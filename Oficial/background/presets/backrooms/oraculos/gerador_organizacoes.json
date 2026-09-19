@@ -1,0 +1,38 @@
+{
+  "organizacoes_faccoes": [
+    { "item": "M.E.G. (Major Explorer Group) — Brigada de Exploração e Resgate", "peso": 4 },
+    { "item": "B.N.T.G. (Backroom Non-Aligned Trade Group) — Sindicato Mercante", "peso": 4 },
+    { "item": "Os Olhos do Vazio — Culto Fanático dos Insanos", "peso": 2 },
+    { "item": "Colonizadores Independentes da Fronteira Liminar", "peso": 3 },
+    { "item": "Esquadrão Perdido de Batedores Militares da Terra", "peso": 2 },
+    { "item": "A Sociedade dos Arquivistas do Fim", "peso": 2 }
+  ],
+  "postos_avancados": [
+    { "item": "Base fortificada em galpão com barricadas de metal, refletores e geradores a diesel", "peso": 4 },
+    { "item": "Tenda improvisada e fogueira de carpetes secos em um beco sem saída", "peso": 3 },
+    { "item": "Posto comercial montado em uma praça de alimentação abandonada com balcões de madeira", "peso": 4 },
+    { "item": "Laboratório hermético de campanha com tendas de quarentena de plástico transparente", "peso": 3 },
+    { "item": "Trincheira reforçada com arame farpado e sinos de alarme contra Smilers", "peso": 2 }
+  ],
+  "atitudes_iniciais": [
+    { "item": "Desconfiada e alerta: armas empunhadas até que o sobrevivente mostre as mãos vazias", "peso": 4 },
+    { "item": "Acolhedora e profissional: oferece teste de sanidade e 200ml de Água de Amêndoa", "peso": 3 },
+    { "item": "Mercenária e pragmática: só conversa se houver baterias, peças ou armas para negociar", "peso": 4 },
+    { "item": "Hostil e agressiva: exige pedágio ou retirada imediata sob mira de besta", "peso": 2 },
+    { "item": "Em pânico e sitiada: pedindo reforços desesperadamente após um ataque recente", "peso": 2 }
+  ],
+  "servicos_e_comercio": [
+    { "item": "Troca de Água de Amêndoa purificada por pilhas e baterias recarregadas", "peso": 4 },
+    { "item": "Mapeamento seguro de pontos de no-clip para níveis habitáveis", "peso": 4 },
+    { "item": "Atendimento médico de emergência e sutura de ferimentos causados por entidades", "peso": 3 },
+    { "item": "Venda de armas improvisadas (lanças de vergalhão, tacos com pregos e bestas artesanais)", "peso": 3 },
+    { "item": "Contratação de batedores ou escolta armada através de setores escuros", "peso": 2 }
+  ],
+  "segredos_e_conflitos": [
+    { "item": "A base está racionando a última reserva de água devido a um vazamento contaminado", "peso": 4 },
+    { "item": "Há um infiltrado do culto dos Olhos do Vazio sabotando os geradores de luz", "peso": 3 },
+    { "item": "A liderança escondeu a morte de um comandante transformado em Wretch no subsolo", "peso": 3 },
+    { "item": "Descobriram uma saída para o mundo real, mas ela exige o sacrifício de uma vida", "peso": 2 },
+    { "item": "Estão em guerra velada com o B.N.T.G. pelo controle de uma fonte de Água de Amêndoa", "peso": 3 }
+  ]
+}

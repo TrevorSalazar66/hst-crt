@@ -1,7 +1,27 @@
 {
   "localizacao_atual": "Ponto de Partida",
-  "condicao_climatica": "Normal",
+  "distrito_ou_regiao": "Setor Inicial",
+  "condicao_climatica": {
+    "clima": "Tempo Nublado",
+    "temperatura": "Ameno",
+    "visibilidade": "Boa",
+    "toxidade_ar": "Segura"
+  },
   "hora_do_dia": "Manhã",
-  "faccoes_status": {},
+  "dia_da_saga": 1,
+  "nivel_alerta_geral": "Baixo",
+  "faccoes_status": {
+    "Consórcio": {
+      "atitude": "Neutra",
+      "nivel_vigilancia": "Baixa",
+      "influencia_local": "Moderada"
+    },
+    "Sindicato_Livre": {
+      "atitude": "Neutra",
+      "nivel_vigilancia": "Baixa",
+      "influencia_local": "Baixa"
+    }
+  },
+  "relogios_urgencia": [],
   "eventos_globais_ativos": []
 }

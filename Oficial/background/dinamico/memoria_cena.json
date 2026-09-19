@@ -1,0 +1,19 @@
+{
+  "capitulo_em_andamento": 1,
+  "estagio_cena_atual": "1_entrada",
+  "tensao_calibrada": "Moderado",
+  "localizacao_cena": "Ponto de Partida",
+  "oraculo_ativo_cena": {
+    "foco_ou_semente": "Exploração inicial da área desconhecida",
+    "reviravolta_prevista": "Nenhuma engatilhada",
+    "npc_em_destaque": "Nenhum"
+  },
+  "buffer_acoes_recentes": [],
+  "modificadores_temporarios": [],
+  "dialogos_pendentes": [],
+  "recursos_gastos_neste_capitulo": {
+    "dano_sofrido": 0,
+    "itens_consumidos": [],
+    "itens_obtidos": []
+  }
+}

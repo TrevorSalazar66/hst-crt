@@ -1,8 +1,29 @@
 {
   "protagonista": {
+    "nome": "Protagonista",
     "saude": 100,
+    "sanidade_ou_estresse": 0,
     "condicao_fisica": "Saudável",
-    "inventario": []
+    "ferimentos_ativos": [],
+    "inventario": [
+      {
+        "item": "Kit de Primeiros Socorros Básico",
+        "quantidade": 1,
+        "tipo": "consumivel"
+      },
+      {
+        "item": "Cantil de Água",
+        "quantidade": 1,
+        "tipo": "suprimento"
+      }
+    ],
+    "equipamentos_ativos": {
+      "arma_primaria": "Faca de Caça",
+      "vestimenta": "Roupas Resistentes de Viajante",
+      "item_especial": "Nenhum"
+    },
+    "habilidades_destaque": []
   },
+  "companheiros_ativos": [],
   "relacionamentos": {}
 }

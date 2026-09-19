@@ -1,0 +1,39 @@
+{
+  "fluidos_e_liquidos": [
+    { "item": "Água de Amêndoa Purificada (500ml) — Restaura sanidade e alivia dores", "peso": 5 },
+    { "item": "Suco de Memória — Bebida doce que traz recordações nítidas da infância e afasta alucinações", "peso": 3 },
+    { "item": "Água de Carpete Bruta — Contaminada; causa náuseas graves se não for destilada", "peso": 4 },
+    { "item": "Óleo de No-Clip — Substância densa que reduz atrito e facilita atravessar fendas", "peso": 2 },
+    { "item": "Líquido de Dor (Pain Liquid) — Altamente corrosivo e venenoso se ingerido", "peso": 2 }
+  ],
+  "ferramentas_e_eletronicos": [
+    { "item": "Lanterna de Manivela Mecânica — Não gasta pilhas, mas o ruído mecânico atrai entidades", "peso": 4 },
+    { "item": "Lanterna UV Tática — Revela pegadas invisíveis e fluidos de Skin-Stealers", "peso": 3 },
+    { "item": "Rádio Walkie-Talkie Antigo — Capta transmissões misteriosas de outros níveis", "peso": 3 },
+    { "item": "Multímetro com Chave Isolada — Permite religar painéis elétricos e desarmar fios soltos", "peso": 3 },
+    { "item": "Cartucho de 4 Pilhas AA Alcalinas — Raras e valiosas como moeda de troca", "peso": 4 },
+    { "item": "Câmera Analógica Descartável — Fotos revelam entidades que não aparecem a olho nu", "peso": 2 }
+  ],
+  "suprimentos_e_sobrevivencia": [
+    { "item": "Barra de Cereal Hermética de Alta Caloria (2x)", "peso": 4 },
+    { "item": "Ração Militar MRE Selada com Aquecedor Químico", "peso": 3 },
+    { "item": "Kit de Sutura e Bandagens Esterilizadas com Antisséptico", "peso": 4 },
+    { "item": "Máscara de Filtro de Carvão — Protege contra vapores e esporos do carpete", "peso": 3 },
+    { "item": "Rolo de Fita Adesiva Reforçada (Duct Tape) — Útil para reparos e silenciar portas", "peso": 4 },
+    { "item": "Giz Branco e Vermelho (3 bastões) — Para marcar setas de rota em paredes", "peso": 4 }
+  ],
+  "armamento_improvisado": [
+    { "item": "Tubo de Ferro Forjado com Ponta Chanfrada — Arma de impacto e perfuração", "peso": 4 },
+    { "item": "Faca de Caça Tática de Aço Inox com Bainha", "peso": 4 },
+    { "item": "Chave Inglesa Pesada de 14 polegadas", "peso": 3 },
+    { "item": "Besta Artesanal com 5 Dardos de Vergalhão", "peso": 2 },
+    { "item": "Garrafa de Vidro com Pavio e Querosene (Coquetel Improvisado)", "peso": 2 }
+  ],
+  "reliquias_liminares": [
+    { "item": "Chave de Latão sem Fechadura — Aquece na mão quando próxima de um ponto de No-Clip", "peso": 3 },
+    { "item": "Fotografia Antiga em Preto e Branco — A imagem das pessoas na foto pisca de olhos abertos", "peso": 2 },
+    { "item": "Relógio de Bolso que Gira no Sentido Anti-Horário — Mede distorção dimensional", "peso": 2 },
+    { "item": "Diário de Couro Manchado com Códigos de Portas do Nível 3", "peso": 3 },
+    { "item": "Cartão de Acesso Magnético Nível 4 do M.E.G. — Abre portas trancadas em escritórios", "peso": 2 }
+  ]
+}

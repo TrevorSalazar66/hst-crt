@@ -1,0 +1,50 @@
+{
+  "arquetipos_entidades": [
+    { "item": "Smiler (Predador de Escuridão / Sorriso Luminoso)", "peso": 4 },
+    { "item": "Hound (Humanoide Canino Quadrúpede Feral)", "peso": 4 },
+    { "item": "Skin-Stealer (Mimético Ladrão de Peles Humanas)", "peso": 3 },
+    { "item": "Faceling (Humanoide Sem Rosto / Mímico de Rotina)", "peso": 3 },
+    { "item": "Wretch (Andarilho Mutado por Perda Total de Sanidade)", "peso": 4 },
+    { "item": "Deathmoth (Mariposa Gigante Agressiva / Ácida)", "peso": 2 },
+    { "item": "Anomalia Sombria Incorpórea (Silhueta que absorve luz)", "peso": 2 },
+    { "item": "Entity 666 — O Arauto da Névoa (Pesadelo Dimensional)", "peso": 1 }
+  ],
+  "aparencias_e_detalhes": [
+    { "item": "Rosto composto apenas por dentes brancos afiados reluzentes e olhos reflexivos no breu", "peso": 4 },
+    { "item": "Corpo esquelético de quatro patas coberto por longos cabelos negros oleosos e unhas recurvadas", "peso": 4 },
+    { "item": "Humanoide vestindo terno corporativo puído, com a face completamente lisa sem traços faciais", "peso": 3 },
+    { "item": "Pele flácida e translúcida com costuras grosseiras e olhos sem pupilas que vazam líquido viscoso", "peso": 3 },
+    { "item": "Criatura insetóide voadora com asas de 1,5m que soltam pólen corrosivo no ar", "peso": 2 },
+    { "item": "Silhueta humanoide esticada com mais de 3 metros de altura e braços que tocam o chão", "peso": 2 }
+  ],
+  "comportamentos_e_taticas": [
+    { "item": "Caça silenciosa em emboscada, atacando no exato instante em que a vítima desvia o olhar", "peso": 4 },
+    { "item": "Investida frontal feroz e rápida guiada pelo som de passos ou respiração ofegante", "peso": 4 },
+    { "item": "Imita vozes de familiares ou pedidos de socorro de outros sobreviventes para atrair presas", "peso": 3 },
+    { "item": "Permanece imóvel e dócil no canto da sala até que uma fonte de luz seja apontada diretamente para ela", "peso": 3 },
+    { "item": "Segregação de feromônios que causam paralisia e queda abrupta de sanidade", "peso": 2 },
+    { "item": "Perseguição incansável e rítmica que quebra portas de compensado e grades de ventilação", "peso": 3 }
+  ],
+  "fraquezas_e_contramedidas": [
+    { "item": "Desligar luzes, não fazer movimentos bruscos e recuar devagar mantendo contato visual", "peso": 4 },
+    { "item": "Impor dominância encarando fixamente os olhos da criatura sem piscar até intimidá-la", "peso": 4 },
+    { "item": "Vulnerabilidade severa a respingos de Água de Amêndoa pura (queima como ácido na criatura)", "peso": 3 },
+    { "item": "Uso de luz estroboscópica ou clarão de lanterna forte que desorienta seus sentidos", "peso": 3 },
+    { "item": "Ataque com armas brancas pesadas de impacto nas articulações traseiras", "peso": 3 },
+    { "item": "Fogo ou calor concentrado (queima fácil fiações orgânicas e peles postiças)", "peso": 2 }
+  ],
+  "sons_caracteristicos": [
+    { "item": "Respiração pesada e estalidos ósseos rítmicos vindos de dentro do teto falso", "peso": 4 },
+    { "item": "Choro baixo de criança misturado com chiado de rádio fora de sintonia", "peso": 3 },
+    { "item": "Passos rápidos de garras raspando o chão de concreto", "peso": 4 },
+    { "item": "Sussurro ininterrupto repetindo uma única palavra em loop", "peso": 3 },
+    { "item": "Zumbido de asas gigantescas vibrando o ar das salas adjacentes", "peso": 2 }
+  ],
+  "recompensas_despojos": [
+    { "item": "Frasco de Seiva de Entidade (reagente alquímico raro para purificação)", "peso": 2 },
+    { "item": "Garras endurecidas ou dentes afiados que podem ser amarrados em cabos como facas improvisadas", "peso": 3 },
+    { "item": "Pedaço de tecido rasgado com mapa rabiscado nos bolsos da vítima anterior", "peso": 4 },
+    { "item": "Baterias e pilhas intactas caídas do equipamento de expedição da vítima", "peso": 3 },
+    { "item": "Nenhum despojo; a criatura se dissolve em vapor fétido e poeira de carpete", "peso": 4 }
+  ]
+}

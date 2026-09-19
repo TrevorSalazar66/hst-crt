@@ -1,8 +1,16 @@
 {
-  "arco_narrativo_atual": "Início da Saga",
+  "arco_narrativo_atual": "Início da Saga — O Chamado e o Primeiro Passo",
   "capitulo_atual_num": 1,
+  "foco_dramatico_atual": "Descobrir o primeiro objetivo e garantir um abrigo seguro",
   "ganchos_abertos": [
-    "Descobrir o primeiro objetivo"
+    {
+      "id": "gancho_01",
+      "descricao": "Descobrir a origem da mensagem misteriosa e o primeiro objetivo da jornada",
+      "prioridade": "Alta",
+      "capitulo_origem": 1,
+      "status": "ativo"
+    }
   ],
+  "segredos_descobertos": [],
   "historico_capitulos": []
 }
