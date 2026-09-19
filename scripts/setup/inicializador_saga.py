@@ -49,7 +49,6 @@ def inicializar_preset(nome_preset: str):
         print(f"❌ Preset '{nome_preset}' não foi encontrado em {DIR_PRESETS}")
         return False
     
-    # Copia os arquivos do preset para background/fixo/
     for item in pasta_src.iterdir():
         dest = DIR_FIXO / item.name
         if item.is_dir():
@@ -62,7 +61,7 @@ def inicializar_preset(nome_preset: str):
     return True
 
 def inicializar_oraculo():
-    print("🎲 Modo Semi-Aleatório (Oráculo). Sortando elementos do universo...")
+    print("🎲 Modo Semi-Aleatório Procedural (Oráculo + Adjetivos + Peculiaridades)...\n")
     arquivo_oraculo = DIR_ORACULOS / "geracao_mundo.json"
     if not arquivo_oraculo.exists():
         print(f"❌ Oráculo de geração de mundo não encontrado: {arquivo_oraculo}")
@@ -72,27 +71,40 @@ def inicializar_oraculo():
         dados = json.load(f)
         
     def pick_weighted(lista):
+        if not lista:
+            return {"item": "N/A"}
         pesos = [item.get("peso", 1) for item in lista]
         return random.choices(lista, weights=pesos, k=1)[0]
         
-    genero = pick_weighted(dados.get("generos", []))
-    tom = pick_weighted(dados.get("tomes_narrativos", []))
-    conflito = pick_weighted(dados.get("conflitos_centrais", []))
-    origem = pick_weighted(dados.get("origens_protagonista", []))
+    genero = pick_weighted(dados.get("generos", []))["item"]
+    atmosfera = pick_weighted(dados.get("adjetivos_atmosfera", []))["item"]
+    peculiaridade = pick_weighted(dados.get("peculiaridades_mundo", []))["item"]
+    tom = pick_weighted(dados.get("tomes_narrativos", []))["item"]
+    conflito = pick_weighted(dados.get("conflitos_centrais", []))["item"]
+    origem = pick_weighted(dados.get("origens_protagonista", []))["item"]
+    segredo = pick_weighted(dados.get("segredos_protagonista", []))["item"]
+    
+    premissa_combinada = f"Um universo de {genero} com atmosfera {atmosfera}. {peculiaridade}. O tom é {tom}."
     
     sorteio = {
-        "genero": genero["item"],
-        "tom": tom["item"],
-        "conflito_central": conflito["item"],
-        "origem_protagonista": origem["item"]
+        "genero_base": genero,
+        "adjetivo_atmosfera": atmosfera,
+        "peculiaridade_unica_do_mundo": peculiaridade,
+        "tom_narrativo": tom,
+        "conflito_central": conflito,
+        "origem_protagonista": origem,
+        "segredo_protagonista": segredo,
+        "síntese_atmosférica": premissa_combinada
     }
     
-    print("\n==========================================")
-    print("🌟 ELEMENTOS DE MUNDO SORTEADOS PELO ORÁCULO")
-    print("==========================================")
+    print("=================================================================")
+    print("🌟 PREMISSA PROCEDURAL COMBINATÓRIA GERADA PELO ORÁCULO")
+    print("=================================================================")
     print(json.dumps(sorteio, indent=2, ensure_ascii=False))
-    print("==========================================\n")
-    print("👉 Passe esse resultado para a LLM sintetizar a lore em background/fixo/\n")
+    print("=================================================================\n")
+    print("👉 Esta combinação traz milhares de variações únicas!")
+    print("   A LLM deve usar essa semente rica para sintetizar 'background/fixo/'\n")
+    
     reseta_estado_dinamico()
     return sorteio
 
@@ -111,7 +123,7 @@ if __name__ == "__main__":
     else:
         print("--- INICIALIZADOR DE SAGA (BLOCO 1) ---")
         print("1. Manual (Templates limpos)")
-        print("2. Semi-Aleatório (Sorteio via Oráculo)")
+        print("2. Semi-Aleatório (Sorteio Combinatório via Oráculo)")
         print("3. Usar Preset (fantasia_sombria / cyberpunk_noir)")
         choice = input("Escolha uma opção (1, 2 ou 3): ").strip()
         if choice == "1":
